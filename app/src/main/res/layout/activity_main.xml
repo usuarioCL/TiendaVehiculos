@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnListar"
+        android:text="Listar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:text="Registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:text="Buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
